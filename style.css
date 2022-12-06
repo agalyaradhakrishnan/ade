@@ -1,0 +1,35 @@
+h2{
+    font-size: 30px;
+}
+
+.button-1 { 
+    margin-left:100px;
+    padding: 10px 40px;
+    background-color:#59CAD2;
+    border:solid white;
+}
+.button-2 { 
+    margin-left:100px;
+    padding: 10px 40px;
+    background-color:#59CAD2;
+    border:solid white;
+}
+.container{
+    margin-top: 5%;
+}
+@media(max-width:560px){
+    .button-2 {
+        margin-left:150px;
+    }
+    .button-1 {
+        margin-left:150px;
+    }
+}
+@media(max-width:480px){
+    .button-2 {
+        margin-left:100px;
+    }
+    .button-1 {
+        margin-left:80px;
+    }
+}
